@@ -2,7 +2,7 @@
 const PROJECT = {
   token: "BlackRockcoin",
   ticker: "BLKRCK",
-  contract: "0xcomingsoon",
+  contract: "0xd1fda1908bb0c054d49b3b530f99bc4a26d04444",
   telegram: "https://t.me/BereketBank_bnb",
   twitter: "https://x.com/BereketBank_bnb",
   dex: "#", // Raydium/Orca link
