@@ -1,0 +1,528 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket Bank
+</title>
+    <meta name="description" content="BEREKET BANK">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/logonobg.png">
+    
+    <!-- Open Graph / Twitter Meta Tags -->
+    <meta property="og:title" content="Bereket Bank
+">
+    <meta property="og:description" content="BEREKET BANK">
+    <meta property="og:image" content="images/logobg.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="bereket.tech">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bereket Bank">
+    <meta name="twitter:description" content="BEREKET BANK">
+    <meta name="twitter:image" content="logobg.jpg">
+    <meta name="twitter:site" content="@BereketBnb">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js CDN -->
+    <script src="js/chart.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/logonobg.png" alt="BEREKET" class="nav-logo">
+                <span class="nav-title">Bereket Bank</span>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#tokenomics" class="nav-link">Tokenomics</a></li>
+                <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                <li><a href="#how-to-buy" class="nav-link">How to Buy</a></li>
+                <li><a href="#partners" class="nav-link">Partners</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#socials" class="nav-link">Socials</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="https://t.me/BereketBankBsc" class="btn btn-outline btn-sm">Join Telegram</a>
+                <a href="https://pancakeswap.finance/swap?chain=bsc&chainOut=bsc&inputCurrency=BNB&outputCurrency=0x550AdA1eE86804cfc10251085fDD14eF771F4444&exactAmount=&exactField=INPUT" class="btn btn-primary btn-sm">Buy Now</a>
+            </div>
+            
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="dot-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo-container">
+                    <img src="images/logonobg.png" alt="BEREKET" class="hero-logo">
+                </div>
+                
+                <h1 class="hero-title">Bereket Bank</h1>
+                
+                <p class="hero-subtitle">
+                    Recently, news broke that a new private digital-asset bank called Bereket Bank is being launched in Kyrgyzstan. 
+                </p>
+                
+                        <div class="hero-badge">
+            <span class="badge">Exploring crypto infrastructure
+</span>
+        </div>
+                
+                <div class="hero-cta">
+                    <a href="https://pancakeswap.finance/swap?chain=bsc&chainOut=bsc&inputCurrency=BNB&outputCurrency=0x550AdA1eE86804cfc10251085fDD14eF771F4444&exactAmount=&exactField=INPUT" class="btn btn-primary btn-lg">Buy on Pancakes</a>
+                </div>
+                
+                <div class="contract-info">
+                    <span>Contract (BSC):</span>
+                    <code id="contract-display">0x550AdA1eE86804cfc10251085fDD14eF771F4444</code>
+                    <button class="copy-btn" id="copy-contract" aria-label="Copy contract address">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        Copy
+                    </button>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="chevron"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Bereket Bank</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                         The idea reportedly traces back to CZ’s visit to the country, where he discussed a private crypto-focused bank model meant to attract foreign investment.
+                    </p>
+                    
+                    <ul class="about-features">
+                        <li>Web3 Native</li>
+                        <li>Seed Vault Security</li>
+                        <li>Genesis Token</li>
+                    </ul>
+                    
+                    <p class="about-note">
+                        The concept: a bank that operates in the crypto world without state or family ownership, signalling openness, independence, and global capital.
+                    </p>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="about-card">
+                        <div class="logo-blob">
+                            <img src="images/logonobg.png" alt="BEREKET" class="blob-logo">
+                        </div>
+                        <p class="blob-caption">That real-world development sparked the creation of Bereket Bank as a meme token - $Bereket.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="tokenomics" id="tokenomics">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tokenomics</h2>
+            </div>
+            
+            <div class="tokenomics-content">
+                <div class="tokenomics-cards">
+                    <div class="tokenomics-card">
+                        <h3>Total Supply</h3>
+                        <p class="tokenomics-value">1,000,000,000 $Bereket Bank</p>
+                    </div>
+                    
+                    <div class="tokenomics-card">
+                        <h3>NO TAX</h3>
+                        <p class="tokenomics-value">0% BUY</p>
+                        <p class="tokenomics-note">0% SELL</p>
+                    </div>
+                </div>
+                
+                <div class="tokenomics-chart">
+                    <canvas id="tokenomicsChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="last-updated">
+                <p>Last updated: <span id="last-updated-date"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Roadmap</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-phase="1">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="phase-header">
+                            <h3>Phase 1 – Launch</h3>
+                            <span class="phase-date">Q3 2025</span>
+                            <span class="phase-status done">Done</span>
+                        </div>
+                        <ul class="phase-milestones">
+                            <li>Website</li>
+                            <li>Socials</li>
+                            <li>Token launch</li>
+                            <li>Initial LP</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-phase="2">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="phase-header">
+                            <h3>Phase 2 – Growth</h3>
+                            <span class="phase-status in-progress">In Progress</span>
+                        </div>
+                        <ul class="phase-milestones">
+                            <li>Listings on BSC trackers</li>
+                            <li>Community quests</li>
+                            <li>First reward rotation</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-phase="3">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="phase-header">
+                            <h3>Phase 3 – Utility</h3>
+                            <span class="phase-status planned">Planned</span>
+                        </div>
+                        <ul class="phase-milestones">
+                            <li>Dashboard for rewards tracking</li>
+                            <li>Partner integrations</li>
+                            <li>Audits</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-phase="4">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="phase-header">
+                            <h3>Phase 4 – Scale</h3>
+                            <span class="phase-status planned">Planned</span>
+                        </div>
+                        <ul class="phase-milestones">
+                            <li>CEX outreach</li>
+                            <li>Bigger collabs</li>
+                            <li>Governance v1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section class="how-to-buy" id="how-to-buy">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How to Buy</h2>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <div class="step-content">
+                        <h3>1. Install a BNB wallet</h3>
+                        <p>Download Metamask, or another BNB wallet</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                            <path d="M12 6v2m0 8v2"></path>
+                        </svg>
+                    </div>
+                    <div class="step-content">
+                        <h3>2. Fund with BNB</h3>
+                        <p>Add BNB to your wallet from an exchange</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9v-9m0-9v9"></path>
+                        </svg>
+                    </div>
+                    <div class="step-content">
+                        <h3>3. Visit the DEX</h3>
+                        <p>Go to Pancakes Swap or Other</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                        </svg>
+                    </div>
+                    <div class="step-content">
+                        <h3>4. Swap for $Bereket</h3>
+                        <p>Paste the contract address and swap BNB for $Bereket</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="buy-info">
+                <div class="info-note">
+                    <p><strong>Note:</strong> Set slippage to 1-2% for best results</p>
+                </div>
+                
+                <div class="contract-box">
+                    <label>Contract Address:</label>
+                    <div class="contract-display">
+                        <code id="contract-copy">0x550AdA1eE86804cfc10251085fDD14eF771F4444</code>
+                        <button class="copy-btn" id="copy-contract-2" aria-label="Copy contract address">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ecosystem & Partners</h2>
+            </div>
+            
+            <div class="partners-content">
+                <p class="partners-description">
+                    Powered by Bereket Bank.
+CZ proposed creating a private crypto bank in Kyrgyzstan.                 </p>
+                
+                <div class="partners-grid">
+                    <a href="https://binance.com" target="_blank" rel="noopener" class="partner-card">
+                        <div class="partner-logo">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="8" fill="#f5f7ff"></rect>
+                                <text x="24" y="28" text-anchor="middle" fill="#0e0e11" font-family="Space Grotesk" font-size="12" font-weight="600">CZ BANK</text>
+                            </svg>
+                        </div>
+                        <h3>Changpeng Zhao</h3>
+                        <p>Bereket Banks are on the move! Global distribution is ramping up fast, and they’ll be making their way to you in the next few weeks.</p>
+                    </a>
+                    
+                    <a href="https://prestocks.com/products" target="_blank" rel="noopener" class="partner-card">
+                        <div class="partner-logo">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect width="48" height="48" rx="8" fill="#f5f7ff"></rect>
+                                <text x="24" y="28" text-anchor="middle" fill="#0e0e11" font-family="Space Grotesk" font-size="12" font-weight="600">Kyrgyzstan</text>
+                            </svg>
+                        </div>
+                        <h3>PrivateBank</h3>
+                        <p>“Bereket Bank” will focus on digital assets and foreign investment with no state or family ownership.
+</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Socials Section -->
+    <section class="socials" id="socials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join the Community</h2>
+            </div>
+            
+            <div class="socials-content">
+                <div class="social-buttons">
+                    <a href="https://t.me/BereketBankBsc" class="social-btn" data-social="telegram" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.05-.2-.06-.06-.15-.04-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.75-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06-.01.13-.02.2z"></path>
+                        </svg>
+                        <span>Telegram</span>
+                    </a>
+                    
+                    <a href="https://x.com/BereketBnb" class="social-btn" data-social="twitter" target="_blank" rel="noopener">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                        </svg>
+                        <span>X (Twitter)</span>
+                    </a>
+                    
+
+                </div>
+                
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-content">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is Bereket Bank?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>$Bereket. It’s a satire on the situation, but also a commentary on a shift happening in emerging markets: new regions exploring crypto infrastructure while the West tightens regulation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Where can I see the contract?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can view the contract on BscScan or other BSC block explorers. The contract address is displayed on this page and can be copied with one click.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is this financial advice?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. This project is for educational and entertainment purposes only. Always do your own research and never invest more than you can afford to lose.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I join the community?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6,9 12,15 18,9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Join our Telegram group or follow us on X (Twitter). Links are available in the Socials section above.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logonobg.png" alt="bereket" class="footer-logo">
+                    <p class="footer-disclaimer">
+                        Bereket Bank is a community token. This site is for educational and entertainment purposes only. Not financial advice.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#tokenomics">Tokenomics</a></li>
+                            <li><a href="#roadmap">Roadmap</a></li>
+                            <li><a href="#how-to-buy">How to Buy</a></li>
+                            <li><a href="#partners">Partners</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Community</h4>
+                        <ul class="footer-socials">
+                            <li><a href="https://t.me/BereketBankBsc" data-social="telegram">Telegram</a></li>
+                            <li><a href="https://x.com/BereketBnb" data-social="twitter">X (Twitter)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>� <span id="copyright-year"></span> Bereket Bank. All rights reserved.</p>
+                <p class="domain-badge">bereket.tech</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18,15 12,9 6,15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+
+
+</body></html>
