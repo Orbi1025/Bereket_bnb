@@ -2,9 +2,9 @@
 const PROJECT = {
   token: "BlackRockcoin",
   ticker: "BLKRCK",
-  contract: "BLKVeABMHZZFJetDL3Hyz7hidxiUtTQF1HYv6KsJmTaw",
-  telegram: "https://t.me/BereketBankBsc",
-  twitter: "https://x.com/BereketBnb",
+  contract: "0xcomingsoon",
+  telegram: "https://t.me/BereketBank_bnb",
+  twitter: "https://x.com/BereketBank_bnb",
   dex: "#", // Raydium/Orca link
   litepaper: "#", // PDF link
   solscan: "#",
